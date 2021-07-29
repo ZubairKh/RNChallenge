@@ -21,8 +21,12 @@ Open up terminal and run the following commands
 5. To run on iOS Simulator type `cd ..` (to navigate back to root folder) then run `npm run ios` OR `yarn ios`
 6. To run the tests type `npm run test` OR `yarn test`
 
-If everything went successful, it will run the app on iOS Simulator having Product Details screen UI and mock Json implementation
+If everything goes successfully, it will run the app on iOS Simulator having Product Details screen UI and mock Json implementation
 
 feel free to ask any questions @ zubair.zrk@gmail.com OR contact Daniel to have a chat with me
 
 Thanks!
+
+### Screenshot
+
+![iOS Result](rn_challenge.png)
