@@ -8,6 +8,7 @@ import {SubCategory} from './models/SubCategory';
  * We can use Redux or MobX to have this product service in app's level observable state
  * we can use fetch or axios to fetch the json from server like
  * fetch('server_base_url/endpoints')
+ * for now, as we don't have REST APIs, I've put local json files under mockData Folder
  */
 export class ProductService {
   /**
