@@ -73,7 +73,6 @@ const ProductHeader = (props: Props) => {
                                     { backgroundColor: selectedCatId === cat.id ? AppColors.subCatSelector : AppColors.grey }
                                 ]}
                                 onPress={() => {
-                                    console.log(cat.productIds.toString())
                                     setSelectedCatId(cat.id)
                                     setProdList(productService.getProductList(cat.productIds))
                                 }}>
