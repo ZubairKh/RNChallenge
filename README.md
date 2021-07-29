@@ -17,8 +17,9 @@ Open up terminal and run the following commands
 1. Clone the repo using `git clone https://github.com/ZubairKh/RNChallenge.git`
 2. Open up the root folder in VS Code IDE and open terminal inside VS Code
 3. type `npm install` OR `yarn`
-4. To run on iOS Simulator type `npm run ios` OR `yarn ios`
-5. To run the tests type `npm run test` OR `yarn test`
+4. iOS specific step `cd ios` and then run `pod install`
+5. To run on iOS Simulator type `cd ..` (to navigate back to root folder) then run `npm run ios` OR `yarn ios`
+6. To run the tests type `npm run test` OR `yarn test`
 
 If everything went successful, it will run the app on iOS Simulator having Product Details screen UI and mock Json implementation
 

@@ -22,7 +22,8 @@ const ProductHeader = (props: Props) => {
         subCatName,
         common,
         opacityView,
-        catName
+        catName,
+        coverImageContainer
     } = styles
 
     const productService = props.productService
@@ -33,13 +34,8 @@ const ProductHeader = (props: Props) => {
     const categoryName = props.categoryName
 
     return (
-        <View style={{
-            marginHorizontal: 20,
-        }}>
-            <View style={{
-                alignItems: 'center',
-                justifyContent: 'center'
-            }}>
+        <View style={{ marginHorizontal: 20, }}>
+            <View style={coverImageContainer}>
 
                 <Image
                     source={require('../assets/personal_care.png')}
@@ -54,9 +50,7 @@ const ProductHeader = (props: Props) => {
             <ScrollView
                 showsHorizontalScrollIndicator={false}
                 horizontal
-                style={{
-                    paddingVertical: 20
-                }}
+                style={{ paddingVertical: 20 }}
             >
                 <TouchableOpacity
                     style={[subCatSelector, { backgroundColor: selectedCatId === 0 ? AppColors.subCatSelector : AppColors.grey }]}
@@ -120,6 +114,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         color: AppColors.white
+    },
+    coverImageContainer: {
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     common: {
         width: '100%',

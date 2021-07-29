@@ -35,7 +35,7 @@ it("Empty product list ", () => {
 
 /**
  * if product ids doesn't exist then test should fail like below
- * uncomment below line number 40 to 43 then run `yarn test` in terminal
+ * uncomment below line number 40 to 43 then run `npm run test` OR `yarn test` in terminal
  */
 // it("On Fragrance Selector", () => {
 //   const prodList = productService.getProductList([100, 200])
