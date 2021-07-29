@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/W0wHqN5/shampoo-id-1.png",
+    "name": "Infant Hair Shampoo 350 ml Bottle (ISO, ORGANIC)",
+    "brand": {
+      "name": "Aneia"
+    },
+    "price": 5.99
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/bgkj0DW/shampoo-id-2.png",
+    "name": "Wash & Go Universal 2in1 Shampoo & Conditioner",
+    "brand": {
+      "name": "Wash & Go"
+    },
+    "price": 5.84
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/zRFdgnK/shampoo-id-3.png",
+    "name": "Anti-Hair Fall Shampoo With Bhringaraja",
+    "brand": {
+      "name": "Himalaya"
+    },
+    "price": 4.95
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/ZXjQbT6/handwash-id-1.png",
+    "name": "Liquid Hand Soap Refill Bottle",
+    "brand": {
+      "name": "Lemon Verbena"
+    },
+    "price": 8.24
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/jvLBgqB/handwash-id-2.png",
+    "name": "Naturals Aloe & Chamomile Liquid Handwash",
+    "brand": {
+      "name": "Palmolive"
+    },
+    "price": 3.11
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/YZvjRhR/handwash-id-3.png",
+    "name": "Aloe Vera & Chamomile Liquid Hand Wash",
+    "brand": {
+      "name": "Palmolive Naturals"
+    },
+    "price": 1.68
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/PDKTf5N/frag-id-1.png",
+    "name": "White Whitening Toothpaste, Sparkling White",
+    "brand": {
+      "name": "Colgate Optic"
+    },
+    "price": 16.87
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/KjKX2jQ/frag-id-2.png",
+    "name": "Pro-Health Gum & Breath Purify Rinse",
+    "brand": {
+      "name": "Crest"
+    },
+    "price": 6.99
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/q5PNzCg/frag-id-3.png",
+    "name": "Green tea zero antiseptic mouthwash",
+    "brand": {
+      "name": "Listerine"
+    },
+    "price": 5.49
+  }
+]
